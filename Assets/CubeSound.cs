@@ -5,13 +5,11 @@ using UnityEngine;
 public class CubeSound : MonoBehaviour {
 
     AudioSource audiosource;
-    public AudioClip audioClip;
 
     // Use this for initialization
     void Start () {
 
         audiosource = gameObject.GetComponent<AudioSource>();
-        audiosource.clip = audioClip;
 
     }
 	
